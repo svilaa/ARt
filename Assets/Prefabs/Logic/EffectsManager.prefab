@@ -1,0 +1,1123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010613435886}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010613435886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010452411194}
+  - 114: {fileID: 114000013841723392}
+  m_Layer: 0
+  m_Name: EffectsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010885098148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000014197263836}
+  - 114: {fileID: 114000012237649688}
+  - 114: {fileID: 114000011210968408}
+  m_Layer: 0
+  m_Name: RadialBlurEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000010945830980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013874309072}
+  - 114: {fileID: 114000010136358214}
+  - 114: {fileID: 114000011760804734}
+  m_Layer: 0
+  m_Name: WavesEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011451724466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013684410678}
+  - 114: {fileID: 114000011392893830}
+  - 114: {fileID: 114000012733692550}
+  m_Layer: 0
+  m_Name: ColorEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011833570574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013044749734}
+  - 114: {fileID: 114000013114813620}
+  - 114: {fileID: 114000012035271906}
+  m_Layer: 0
+  m_Name: ChromaticAberrationEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000011912262376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000014103039474}
+  - 114: {fileID: 114000010963080676}
+  - 114: {fileID: 114000012041007276}
+  m_Layer: 0
+  m_Name: AlterShapeEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012264660510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010865398508}
+  - 114: {fileID: 114000010039270336}
+  - 114: {fileID: 114000011565412618}
+  m_Layer: 0
+  m_Name: FOVEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000012366065132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000013779413262}
+  - 114: {fileID: 114000012820121548}
+  - 114: {fileID: 114000013280373860}
+  m_Layer: 0
+  m_Name: PixelEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1000014255100990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000010062270606}
+  - 114: {fileID: 114000014252433726}
+  - 114: {fileID: 114000012551703532}
+  m_Layer: 0
+  m_Name: ShadowEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010062270606
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014255100990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 7
+--- !u!4 &4000010452411194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010613435886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 4000013779413262}
+  - {fileID: 4000013044749734}
+  - {fileID: 4000013684410678}
+  - {fileID: 4000013874309072}
+  - {fileID: 4000010865398508}
+  - {fileID: 4000014197263836}
+  - {fileID: 4000014103039474}
+  - {fileID: 4000010062270606}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &4000010865398508
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012264660510}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 4
+--- !u!4 &4000013044749734
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011833570574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 1
+--- !u!4 &4000013684410678
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011451724466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 2
+--- !u!4 &4000013779413262
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012366065132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 0
+--- !u!4 &4000013874309072
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010945830980}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 3
+--- !u!4 &4000014103039474
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011912262376}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 6
+--- !u!4 &4000014197263836
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010885098148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 4000010452411194}
+  m_RootOrder: 5
+--- !u!114 &114000010039270336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012264660510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000011565412618}
+  objectEffect: {fileID: 1000012949820858, guid: 7fbd86201fcfd2146990bd7777b61db7,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    - time: 1
+      value: 0.9
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 4
+  debugKey: 53
+  gradientPortal: {fileID: 114000010182081470, guid: 0b828a2966a0f984b8ba118102962e73,
+    type: 2}
+--- !u!114 &114000010136358214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010945830980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000011760804734}
+  objectEffect: {fileID: 1000012949820858, guid: 5d90f798d76a03649b02ec0cb40e8094,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 3
+  debugKey: 52
+  gradientPortal: {fileID: 114000010182081470, guid: 740b423cabb4a5347af74c61b7a64742,
+    type: 2}
+--- !u!114 &114000010963080676
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011912262376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000012041007276}
+  objectEffect: {fileID: 1000012949820858, guid: 1e1530e9e2081254b964f23ef720aee1,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    - time: 1
+      value: 0.9
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    - time: 1
+      value: 0.9
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 6
+  debugKey: 55
+  gradientPortal: {fileID: 114000010182081470, guid: e49af03f33eb4194a9d04826889de3e5,
+    type: 2}
+--- !u!114 &114000011210968408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010885098148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78281b8527b48ac43a8ef899a2a638bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: Infinity
+      tangentMode: 25
+    - time: 0.3
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.90187496
+      value: 0.80521
+      inSlope: 1.6614782
+      outSlope: 1.6614782
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1.9851203
+      outSlope: 1.9851203
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 0
+  maxValue: 1.5
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: Radial Blur
+  color: {r: 1, g: 0.4745098, b: 0, a: 1}
+--- !u!114 &114000011392893830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011451724466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000012733692550}
+  objectEffect: {fileID: 1000012949820858, guid: 65733c5f33c7bad4497416040f82906e,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 30
+      inSlope: 50
+      outSlope: 50
+      tangentMode: 10
+    - time: 1
+      value: 80
+      inSlope: 50
+      outSlope: 50
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 30
+      outSlope: 30
+      tangentMode: 10
+    - time: 1
+      value: 30
+      inSlope: 30
+      outSlope: 30
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 2
+  debugKey: 51
+  gradientPortal: {fileID: 114000010182081470, guid: 349af370452955c498358c7fd82a7d4f,
+    type: 2}
+--- !u!114 &114000011565412618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012264660510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee88c061a1578e468b907868f28dfa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 10
+    - time: 0.3
+      value: 0
+      inSlope: 0
+      outSlope: 0.17038
+      tangentMode: 5
+    - time: 0.30930114
+      value: 0.07336976
+      inSlope: 0.8612126
+      outSlope: 0.8612126
+      tangentMode: 1
+    - time: 0.82411647
+      value: 0.46721157
+      inSlope: 1.8391013
+      outSlope: 1.8391013
+      tangentMode: 1
+    - time: 1
+      value: 1
+      inSlope: 3.0292113
+      outSlope: 3.0292113
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 0
+  maxValue: -1.2
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: FOV
+  color: {r: 0.15686275, g: 0.7921569, b: 0, a: 1}
+--- !u!114 &114000011760804734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010945830980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a525a509d33145c459f23d19cf7b378d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: Infinity
+      tangentMode: 25
+    - time: 0.3
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.37436086
+      value: 0.12157801
+      inSlope: 1.5816092
+      outSlope: 1.5816092
+      tangentMode: 0
+    - time: 0.79967195
+      value: 0.54491633
+      inSlope: 1.6335269
+      outSlope: 1.6335269
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 2.2716923
+      outSlope: 2.2716923
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 0
+  maxValue: 1
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: Waves
+  color: {r: 1, g: 0, b: 0, a: 1}
+--- !u!114 &114000012035271906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011833570574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a6e72e7eefc84e44a90e11537d1154a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: Infinity
+      tangentMode: 25
+    - time: 0.3
+      value: 0
+      inSlope: 0.918971
+      outSlope: 0.918971
+      tangentMode: 0
+    - time: 0.9626546
+      value: 0.7978543
+      inSlope: 3.308447
+      outSlope: 3.308447
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 5.412866
+      outSlope: 5.412866
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 0
+  maxValue: 20
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: Chromatic Aberration
+  color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!114 &114000012041007276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011912262376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2462c64fb172614395e2895caffadab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: -0
+      tangentMode: 17
+    - time: 0.29
+      value: 0
+      inSlope: 0
+      outSlope: 9.99998
+      tangentMode: 21
+    - time: 0.3
+      value: 0.1
+      inSlope: 0.9475552
+      outSlope: 0.9475552
+      tangentMode: 0
+    - time: 0.8831128
+      value: 0.50705564
+      inSlope: 1.2859702
+      outSlope: 1.2859702
+      tangentMode: 1
+    - time: 1
+      value: 1
+      inSlope: 1.2857143
+      outSlope: -0.009439061
+      tangentMode: 1
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 0
+  maxValue: 30
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: Alter Shape
+  color: {r: 0.64609534, g: 0, b: 0.6838235, a: 1}
+  anchorPoint: {fileID: 114000013523417760, guid: d18e2da2b62af2044950bb87af038f8d,
+    type: 2}
+  quad: {fileID: 114000012859887832, guid: f173bfdcc0a402843b59dd63bc474a9f, type: 2}
+  numAnchors: 16
+  materials:
+  - {fileID: 2100000, guid: b51c0400ef59de34b80512d5bfd224d2, type: 2}
+  - {fileID: 2100000, guid: 4cb1023a7979da74ea8675dd1caeeac4, type: 2}
+  - {fileID: 2100000, guid: 4655dbabc83dae944bc0c7b5a51a290c, type: 2}
+  - {fileID: 2100000, guid: 6f4a4be224ab53644a9d179ee4777211, type: 2}
+  - {fileID: 2100000, guid: 1b9243018c1f3044196047a8f68775fa, type: 2}
+  - {fileID: 2100000, guid: ce7c54a35afcb9240b4b2a0b5cbcca4f, type: 2}
+  - {fileID: 2100000, guid: 79c3417c40ccb674fa1730a2575a281e, type: 2}
+  - {fileID: 2100000, guid: 039f30cb53bd3994e89cece36f34f74c, type: 2}
+  - {fileID: 2100000, guid: b562302bf1a2dda4694611b75c434b5f, type: 2}
+  - {fileID: 2100000, guid: 06b35b1a9c58bfb45bb0281fa57245de, type: 2}
+--- !u!114 &114000012237649688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010885098148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000011210968408}
+  objectEffect: {fileID: 1000012949820858, guid: bfbb346dc2999c74eb30e8e269f6f69a,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    - time: 1
+      value: 0.9
+      inSlope: 0.9
+      outSlope: 0.9
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 5
+  debugKey: 54
+  gradientPortal: {fileID: 114000010182081470, guid: 56c4020bb2572444188ba7d66c2786eb,
+    type: 2}
+--- !u!114 &114000012551703532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014255100990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8135416bd4d949243a6cd8f726b5cc0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.3
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 0.3517878
+      value: 0.35293248
+      inSlope: 1.5421544
+      outSlope: 1.5421544
+      tangentMode: 0
+    - time: 0.6934502
+      value: 0.7974312
+      inSlope: 0.86762446
+      outSlope: 0.86762446
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 0
+  maxValue: 1.5
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: Shadow
+  color: {r: 0, g: 0, b: 0, a: 1}
+  ambientLight: {fileID: 0}
+  playerLight: {fileID: 0}
+--- !u!114 &114000012733692550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011451724466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8be869dbf60ee444ba38f79d2e56aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: Infinity
+      tangentMode: 25
+    - time: 0.3
+      value: 0
+      inSlope: 0.9786854
+      outSlope: 0.9786854
+      tangentMode: 10
+    - time: 0.38967413
+      value: 0.17552549
+      inSlope: 0.63466614
+      outSlope: 0.63466614
+      tangentMode: 0
+    - time: 0.849046
+      value: 0.44186923
+      inSlope: 1.429349
+      outSlope: 1.429349
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 3.6973562
+      outSlope: 3.6973562
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 0
+  maxValue: 2
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: Color
+  color: {r: 1, g: 0.93103445, b: 0, a: 1}
+--- !u!114 &114000012820121548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012366065132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000013280373860}
+  objectEffect: {fileID: 1000012949820858, guid: afb436c478ee41f408a7f2defd79d209,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 100
+      inSlope: 1
+      outSlope: 400
+      tangentMode: 17
+    - time: 1
+      value: 500
+      inSlope: 400
+      outSlope: 400
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 10
+    - time: 1
+      value: 100
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 0
+  debugKey: 49
+  gradientPortal: {fileID: 114000010182081470, guid: b5cd78bc58a3b0c4c815352896f8b2b1,
+    type: 2}
+--- !u!114 &114000013114813620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011833570574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000012035271906}
+  objectEffect: {fileID: 1000012949820858, guid: a73b4226401be1342b67a48325755310,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 100
+      inSlope: 200
+      outSlope: 200
+      tangentMode: 10
+    - time: 1
+      value: 300
+      inSlope: 200
+      outSlope: 200
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 10
+    - time: 1
+      value: 100
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 1
+  debugKey: 50
+  gradientPortal: {fileID: 114000010182081470, guid: 971577a7d6d7bf4499be837e3fbe3698,
+    type: 2}
+--- !u!114 &114000013280373860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012366065132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c4b73dc5d33c4da04a22ce9536ac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: -1
+      outSlope: Infinity
+      tangentMode: 25
+    - time: 0.3
+      value: 1
+      inSlope: -0.7640867
+      outSlope: -1.4285715
+      tangentMode: 17
+    - time: 1
+      value: 0
+      inSlope: -1.4285715
+      outSlope: -1.4285715
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  value: 0
+  minValue: 100
+  maxValue: 600
+  level: 0
+  minLevel: 0
+  maxLevel: 10
+  additionalTemporalValue: 0
+  temporalCoolDown: 0
+  effectName: Pixel
+  color: {r: 0, g: 0.048275948, b: 1, a: 1}
+--- !u!114 &114000013841723392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010613435886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41a10ec094832ae42b69ea083a3edc3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HUD: {fileID: 0}
+  sliderPrefab: {fileID: 1000012751894858, guid: 0e7f6a33f252df9459b13b7e7ed86648,
+    type: 2}
+  interactableSliders: 0
+  effectsData:
+  - {fileID: 114000012820121548}
+  - {fileID: 114000012237649688}
+  - {fileID: 114000011392893830}
+  - {fileID: 114000013114813620}
+--- !u!114 &114000014252433726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014255100990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da67e59f4be10540863f5289a9c20c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraEffect: {fileID: 114000012551703532}
+  objectEffect: {fileID: 1000012949820858, guid: 7da4f0d4f73fb3a4abbf3bb4a87ddd33,
+    type: 2}
+  statCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 10
+      inSlope: 10
+      outSlope: 10
+      tangentMode: 10
+    - time: 1
+      value: 20
+      inSlope: 10
+      outSlope: 10
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  upgradeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 10
+      outSlope: 10
+      tangentMode: 10
+    - time: 1
+      value: 10
+      inSlope: 10
+      outSlope: 10
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  statType: 7
+  debugKey: 56
+  gradientPortal: {fileID: 114000010182081470, guid: c0d68ef8ac583c64190297ba34fb48bd,
+    type: 2}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: acc5a8acb40658a488f8c19c04cdfe62
+timeCreated: 1480282215
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - chromeAbbShader: {fileID: 4800000, guid: 7d83374e0fe4c0e4d89d3fe696261300, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
