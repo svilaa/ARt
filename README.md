@@ -7,7 +7,7 @@
 
 ## Instruccions
  - En obrir l'aplicació, es demanarà el permís de la càmara. És possible que un cop donat el permís, l'app no funcioni. Cal tancar i tornar a obrir.
- - Tap a la part esquerra de la pantalla: Gira la càmara.
+ - Tap a la part esquerra de la pantalla: Intercanvia entre la càmara frontal i trasera.
  - Tap a la part dreta de la pantalla: Fa una fotografia. Les imatges estan disponibles a /Android/data/com.svila.ARt/files. Amb Unity no s'ha trobat una millor manera de guardar les imatges sense demanar permissos, d'aquesta manera l'aplicació només té accès a la seva carpeta.
  - Botó Back: Tanca l'aplicació.
 
