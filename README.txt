@@ -1,6 +1,6 @@
 ARt by Sergi Vila Almenara
 
-ARt és una aplicació per a PC i Android que permet veure el món amb nous matissos cromàtics i geomètrics.
+ARt és una aplicació per a PC i Android desenvolupada en Unity que permet veure el món amb nous matissos cromàtics i geomètrics.
 
 
 Instruccions:
