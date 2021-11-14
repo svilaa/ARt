@@ -44,7 +44,7 @@ Cada efecte té una probabilitat d'apareixer, un rang de temps d'actuació i un 
  - Radial blur (millorat amb moviment automàtic per la pantalla, abans seguia el cursor)
  - Waves
  - FOV
- - Dades corruptes
+ - Data corruption
  - Sobel
  - Wiggle
  - Headache
