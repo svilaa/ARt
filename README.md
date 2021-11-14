@@ -2,7 +2,7 @@
 
 <img src="/Assets/Resources/art_log_cut_fix.png" align="right" />
 
-### ARt és una aplicació per a PC i Android desenvolupada en Unity que permet veure el món amb nous matissos cromàtics i geomètrics.
+### ARt és una aplicació per a PC, Android i Web desenvolupada en Unity que permet veure el món amb nous matissos cromàtics i geomètrics.
 
 
 ## Instruccions
@@ -14,6 +14,7 @@
 ## Requisits
  - Windows 64-bits
  - Android >=4.4
+ - Firefox o Edge
 
 ## Fonts
  - S'han utilitzat recursos ja desenvolupats durant el TFM i s'han agregat nous shaders gràfics.
@@ -24,3 +25,4 @@
  - [ ] Arreglar la càmara frontal, l'orientació de la càmara no és correcta.
  - [ ] Que els efectes es moguin en funció de la música, està implementat al TFM però les modificacions portarien temps.
  - [ ] Suport per a VR.
+ - [ ] La càmara no funciona al Chrome.
