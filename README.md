@@ -8,15 +8,19 @@
 ## Instruccions
  - En obrir l'aplicació, es demanarà el permís de la càmara. És possible que un cop donat el permís, l'app no funcioni. Cal tancar i tornar a obrir.
  - Tap a la part esquerra de la pantalla: Intercanvia entre la càmara frontal i trasera.
- - Tap a la part dreta de la pantalla: Fa una fotografia. Les imatges estan disponibles a /Android/data/com.svila.ARt/files. Amb Unity no s'ha trobat una millor manera de guardar les imatges sense demanar permissos, d'aquesta manera l'aplicació només té accès a la seva carpeta.
+ - Tap a la part dreta de la pantalla: Fa una fotografia. Les imatges estan disponibles a /Android/data/com.svila.ARt/files en el cas d'Android, i a C:\Users\<nom-usuari>\AppData\LocalLow\svila\ARt en Windows. Amb Unity no s'ha trobat una millor manera de guardar les imatges sense demanar permissos, d'aquesta manera l'aplicació només té accès a la seva carpeta.
  - Botó Back: Tanca l'aplicació.
+
+## Requisits
+ - Windows 64-bits
+ - Android >=4.4
 
 ## Fonts
  - S'han utilitzat recursos ja desenvolupats durant el TFM i s'han agregat nous shaders gràfics.
  - Standard Assets
  - MorePPEffects
 
-## Future work
- - Arreglar la càmara frontal, l'orientació de la càmara no és correcta.
- - Que els efectes es moguin en funció de la música, està implementat al TFM però les modificacions portarien temps.
- - Suport per a VR.
+## TODOs
+ - [ ] Arreglar la càmara frontal, l'orientació de la càmara no és correcta.
+ - [ ] Que els efectes es moguin en funció de la música, està implementat al TFM però les modificacions portarien temps.
+ - [ ] Suport per a VR.
