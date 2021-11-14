@@ -14,7 +14,7 @@
 
 <img src="/Assets/Resources/art_log_cut_fix.png" align="right" />
 
-### ARt és una aplicació per a PC, Android i Web desenvolupada en Unity que permet veure el món amb nous matissos cromàtics i geomètrics.
+### ARt és una aplicació per a PC, Android i Web desenvolupada en Unity, que permet veure el món amb nous matissos cromàtics i geomètrics.
 
 
 ## Instruccions
