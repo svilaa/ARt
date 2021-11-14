@@ -1222,6 +1222,35 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 114000012041007276, guid: 0053538492bcff74fb85737fe5eda6d3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0053538492bcff74fb85737fe5eda6d3, type: 3}
+--- !u!1 &905040654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 189288, guid: e096d49ad1dc9ed4d84064897c5c93cd, type: 3}
+  m_PrefabInstance: {fileID: 2030916744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &905040655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905040654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53541d77655de8840ac12e47ebf101e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  supportHDRTextures: 1
+  supportDX11: 1
+  isSupported: 1
+  timer: 5.0257545
+  Wavelength: 1
+  DistortionStrength: 0.25
+  Sparkling: 0
+  SaturationBase: 1
+  SaturationSpeed: 1
+  SaturationAmplitude: 0.3
+  currentShader: {fileID: 0}
+  currentMaterial: {fileID: 0}
 --- !u!1 &990120902
 GameObject:
   m_ObjectHideFlags: 0
