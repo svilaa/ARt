@@ -33,8 +33,27 @@
  - Standard Assets
  - MorePPEffects
 
+## Efectes disponibles
+
+Cada efecte té una probabilitat d'apareixer, un rang de temps d'actuació i un rang de potència variable. Aleatòriament els efectes apareixen i desapareixen, es combinen amb d'altres, creant sinèrgies entre ells. Mai haurà dos fotogrames iguals. A vegades no apareixeran bones combinacions, però si tota l'estona es generessin imatges impactants, es perdria la motivació en trobar aquests moments, per tant, es fomenta la paciència i l'atenció en la cerca de bones instantànies efímeres, que podran ser inmortalitzades en el temps tocant la part dreta de la pantalla.
+
+ - Pixelation
+ - Chromatic aberration
+ - Gamma color
+ - Radial blur (millorat amb moviment automàtic per la pantalla, abans seguia el cursor)
+ - Waves
+ - FOV
+ - Dades corruptes
+ - Sobel
+ - Wiggle
+ - Headache
+ - Emboss
+ - Bleach bypass
+ - Posterization
+
 ## TODOs
  - [ ] Arreglar la càmara frontal, l'orientació de la càmara no és correcta.
  - [ ] Que els efectes es moguin en funció de la música, està implementat al TFM però les modificacions portarien temps.
  - [ ] Suport per a VR.
- - [ ] La càmara no funciona al Chrome.
+ - [ ] La càmara no funciona a Chrome.
+ - [ ] En Web al mòbil tampoc va bé l'orientació de la càmara i es fica la frontal per defecte.
