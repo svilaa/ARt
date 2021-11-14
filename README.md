@@ -17,6 +17,6 @@
  - MorePPEffects
 
 ## Future work
- - Arreglar la càmara delantera, l'orientació de la càmara no és correcta.
+ - Arreglar la càmara frontal, l'orientació de la càmara no és correcta.
  - Que els efectes es moguin en funció de la música, està implementat al TFM però les modificacions portarien temps.
  - Suport per a VR.
