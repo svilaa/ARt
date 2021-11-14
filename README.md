@@ -6,6 +6,9 @@
 </div>
 
 [![](https://img.shields.io/badge/itch.io-ARt-blue)](https://svila.itch.io/art)
+[![](https://img.shields.io/badge/direct%20link-ARt-green)](https://itch.io/embed-upload/4769452?color=333333)
+
+
 
 
 
