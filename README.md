@@ -32,6 +32,7 @@
  - S'han utilitzat recursos ja desenvolupats durant el TFM i s'han agregat nous shaders gràfics.
  - Standard Assets
  - MorePPEffects
+ - Versió de Unity: 2020.3.0f1
 
 ## Efectes disponibles
 
